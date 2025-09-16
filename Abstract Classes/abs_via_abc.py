@@ -20,6 +20,11 @@ if __name__ == "__main__":
     a = Apple()
     a.eat()
 
+
+    print(type(a))
+    print(type(Apple))
+    print(type(Fruit))
+
     # Не сработает, т.к. в классе Onion не определен метод eat у класса Onion
     # А должен быть, т.к. мы унаследовали его от Fruit
     o = Onion()
